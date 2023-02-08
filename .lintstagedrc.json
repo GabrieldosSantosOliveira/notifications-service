@@ -1,0 +1,7 @@
+{
+  "*.{ts,tsx}": [
+    "yarn format",
+    "eslint --fix --max-warnings=0",
+    "jest --findRelatedTests --passWithNoTests"
+  ]
+}
